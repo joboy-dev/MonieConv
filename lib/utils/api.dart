@@ -11,6 +11,8 @@ import 'package:provider/provider.dart';
 const host = 'http://api.currencylayer.com';
 const accessKey = 'b3942ecb998aa2f52cf9b320386a73bc';
 
+// String accessKey = DotEnv().env['API_KEY']!;
+
 getAllCurrencies(BuildContext context) async {
   Uri uri = Uri.parse('$host/list?access_key=$accessKey');
 
