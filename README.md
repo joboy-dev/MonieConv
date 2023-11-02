@@ -1,3 +1,3 @@
-# monie_conv
+# MonieConv
 
-A new Flutter project.
+An easy-to-use Flutter application to convert from one currency value to another.
