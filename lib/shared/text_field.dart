@@ -229,7 +229,7 @@ class DropDownFormField extends StatelessWidget {
         ),
         errorStyle: TextStyle(
           color: errorTextStyleColor,
-          fontSize: 17.sp,
+          fontSize: 15.sp,
         ),
       ),
       validator: (value) {
